@@ -10,6 +10,10 @@ on:
 
   workflow_dispatch:
 
+permissions:
+  contents: read
+  security-events: write
+
 jobs:
   security:
     runs-on: windows-latest
